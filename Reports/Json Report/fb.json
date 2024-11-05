@@ -1,0 +1,806 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-09-25T07:54:54.814Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2764336100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "",
+        "description": "  User Have To Validate The FaceBook Application with Different Compination",
+        "id": "to-validate-the-login-functionaly-of-facebook-application;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 326052200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1050700700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Have to Open The FaceBook Application Through ChromeBrowser",
+            "match": {
+              "location": "Stepdefinition.user_Have_to_Open_The_FaceBook_Application_Through_ChromeBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 322508600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Have To Pass The \"capgemini123@gmail.com\" and \"cap@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"capgemini123@gmail.com\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"cap@123\"",
+                  "offset": 51
+                }
+              ],
+              "location": "Stepdefinition.user_Have_To_Pass_The_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153912300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Have Click The Login button",
+            "match": {
+              "location": "Stepdefinition.user_Have_Click_The_Login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login2"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-25T07:54:59.491Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1511329200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "",
+        "description": "  User Have To Validate The FaceBook Application with Different Compination",
+        "id": "to-validate-the-login-functionaly-of-facebook-application;;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 267672600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1017504100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Have to Open The FaceBook Application Through ChromeBrowser",
+            "match": {
+              "location": "Stepdefinition.user_Have_to_Open_The_FaceBook_Application_Through_ChromeBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 247244500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Have To Pass The \"hexaware123@gmail.com\" and \"hexa@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hexaware123@gmail.com\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"hexa@123\"",
+                  "offset": 50
+                }
+              ],
+              "location": "Stepdefinition.user_Have_To_Pass_The_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 143883700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Have Click The Login button",
+            "match": {
+              "location": "Stepdefinition.user_Have_Click_The_Login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login2"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-25T07:55:02.686Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1569779900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "",
+        "description": "  User Have To Validate The FaceBook Application with Different Compination",
+        "id": "to-validate-the-login-functionaly-of-facebook-application;;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 239179600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1047660300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Have to Open The FaceBook Application Through ChromeBrowser",
+            "match": {
+              "location": "Stepdefinition.user_Have_to_Open_The_FaceBook_Application_Through_ChromeBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 235034800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Have To Pass The \"Infosys123@gmail.com\" and \"info@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Infosys123@gmail.com\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"info@123\"",
+                  "offset": 49
+                }
+              ],
+              "location": "Stepdefinition.user_Have_To_Pass_The_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104082100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Have Click The Login button",
+            "match": {
+              "location": "Stepdefinition.user_Have_Click_The_Login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login2"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-25T07:55:05.896Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1567492300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "",
+        "description": "  User Have To Validate The FaceBook Application with Different Compination",
+        "id": "to-validate-the-login-functionaly-of-facebook-application;;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 226139400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1213833100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Have to Open The FaceBook Application Through ChromeBrowser",
+            "match": {
+              "location": "Stepdefinition.user_Have_to_Open_The_FaceBook_Application_Through_ChromeBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 408260000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Have To Pass The \"smartskills123@gmail.com\" and \"smart@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"smartskills123@gmail.com\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"smart@123\"",
+                  "offset": 53
+                }
+              ],
+              "location": "Stepdefinition.user_Have_To_Pass_The_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 150538900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Have Click The Login button",
+            "match": {
+              "location": "Stepdefinition.user_Have_Click_The_Login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login2"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the Login Functionaly of Facebook Application",
+    "description": "",
+    "id": "to-validate-the-login-functionaly-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:Login2.feature",
+    "tags": [
+      {
+        "name": "@login2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1083715200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Have to Open The FaceBook Application Through ChromeBrowser",
+            "match": {
+              "location": "Stepdefinition.user_Have_to_Open_The_FaceBook_Application_Through_ChromeBrowser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-25T07:55:09.478Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1549420800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "To Validate The Logic Functionality of valid userName and InValid Passsword",
+        "description": "",
+        "id": "to-validate-the-login-functionaly-of-facebook-application;to-validate-the-logic-functionality-of-valid-username-and-invalid-passsword",
+        "after": [
+          {
+            "result": {
+              "duration": 234748500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat org.sep.Stepdefinition.user_Have_to_pass_the_Valid_UserName_and_InValid_password(Stepdefinition.java:95)\r\n\tat ✽.User Have to pass the Valid UserName and InValid password(file:login.feature:8)\r\n",
+              "duration": 5389000,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "User Have to pass the Valid UserName and InValid password",
+            "match": {
+              "location": "Stepdefinition.user_Have_to_pass_the_Valid_UserName_and_InValid_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "smartskillstechnologies@gmail.com",
+                  "sstech@123",
+                  "capgemeini@gmail.com",
+                  "cap@123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1115800,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User Have To Click the Login button",
+            "match": {
+              "location": "Stepdefinition.user_Have_To_Click_the_Login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login1"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 980470600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Have to Open The FaceBook Application Through ChromeBrowser",
+            "match": {
+              "location": "Stepdefinition.user_Have_to_Open_The_FaceBook_Application_Through_ChromeBrowser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-25T07:55:12.404Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1436204600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "To Validate The Logic Functionality of Invalid userName and InValid Passsword",
+        "description": "",
+        "id": "to-validate-the-login-functionaly-of-facebook-application;to-validate-the-logic-functionality-of-invalid-username-and-invalid-passsword",
+        "after": [
+          {
+            "result": {
+              "duration": 216778900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 243307200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Have to pass the InValid UserName and InValid password",
+            "match": {
+              "location": "Stepdefinition.user_Have_to_pass_the_InValid_UserName_and_InValid_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "samrtskillestechnologies@gmail.com",
+                  "sstech@123"
+                ]
+              },
+              {
+                "cells": [
+                  "capgemeini@gmail.com",
+                  "cap@123"
+                ]
+              },
+              {
+                "cells": [
+                  "infosys123@gmail.com",
+                  "info@123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108511200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User Have To Click the Login button",
+            "match": {
+              "location": "Stepdefinition.user_Have_To_Click_the_Login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login1"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 953123000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Have to Open The FaceBook Application Through ChromeBrowser",
+            "match": {
+              "location": "Stepdefinition.user_Have_to_Open_The_FaceBook_Application_Through_ChromeBrowser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-25T07:55:15.397Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1562042600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "To Validate The Logic Functionality of Invalid userName and Valid Passsword",
+        "description": "",
+        "id": "to-validate-the-login-functionaly-of-facebook-application;to-validate-the-logic-functionality-of-invalid-username-and-valid-passsword",
+        "after": [
+          {
+            "result": {
+              "duration": 256612800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 277241600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User Have to pass the InValid UserName and Valid password",
+            "match": {
+              "location": "Stepdefinition.user_Have_to_pass_the_InValid_UserName_and_Valid_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "smartskillstechnologies123@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "sstech@123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100235000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User Have To Click the Login button",
+            "match": {
+              "location": "Stepdefinition.user_Have_To_Click_the_Login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login1"
+          },
+          {
+            "name": "@resgression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1005620000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Have to Open The FaceBook Application Through ChromeBrowser",
+            "match": {
+              "location": "Stepdefinition.user_Have_to_Open_The_FaceBook_Application_Through_ChromeBrowser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-25T07:55:18.551Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1660141200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "To Validate The Logic Functionality of valid userName and Valid Passsword",
+        "description": "",
+        "id": "to-validate-the-login-functionaly-of-facebook-application;to-validate-the-logic-functionality-of-valid-username-and-valid-passsword",
+        "after": [
+          {
+            "result": {
+              "duration": 285989900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat org.sep.Stepdefinition.user_Have_to_pass_the_Valid_UserName_and_Valid_password(Stepdefinition.java:132)\r\n\tat ✽.User Have to pass the Valid UserName and Valid password(file:login.feature:32)\r\n",
+              "duration": 9224100,
+              "status": "failed"
+            },
+            "line": 32,
+            "name": "User Have to pass the Valid UserName and Valid password",
+            "match": {
+              "location": "Stepdefinition.user_Have_to_pass_the_Valid_UserName_and_Valid_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "smartskills@gmail.com",
+                  "smart@123"
+                ]
+              },
+              {
+                "cells": [
+                  "Hcl123@gmail.com",
+                  "hcl@123"
+                ]
+              },
+              {
+                "cells": [
+                  "capgemini123@gmail.com",
+                  "cap@123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 823800,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "User Have To Click the Login button",
+            "match": {
+              "location": "Stepdefinition.user_Have_To_Click_the_Login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login1"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the Login Functionaly of Facebook Application",
+    "description": "",
+    "id": "to-validate-the-login-functionaly-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:login.feature",
+    "tags": [
+      {
+        "name": "@login1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

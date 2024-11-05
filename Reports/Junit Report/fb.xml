@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="26.676117">
+    <testcase classname="To Validate the Login Functionaly of Facebook Application" name="_2" time="4.673101">
+        <system-out>
+            <![CDATA[Given User Have to Open The FaceBook Application Through ChromeBrowser......passed
+When User Have To Pass The "capgemini123@gmail.com" and "cap@123"...........passed
+And User Have Click The Login button........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To Validate the Login Functionaly of Facebook Application" name="_3" time="3.192988">
+        <system-out>
+            <![CDATA[Given User Have to Open The FaceBook Application Through ChromeBrowser......passed
+When User Have To Pass The "hexaware123@gmail.com" and "hexa@123"...........passed
+And User Have Click The Login button........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To Validate the Login Functionaly of Facebook Application" name="_4" time="3.206941">
+        <system-out>
+            <![CDATA[Given User Have to Open The FaceBook Application Through ChromeBrowser......passed
+When User Have To Pass The "Infosys123@gmail.com" and "info@123"............passed
+And User Have Click The Login button........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To Validate the Login Functionaly of Facebook Application" name="_5" time="3.576953">
+        <system-out>
+            <![CDATA[Given User Have to Open The FaceBook Application Through ChromeBrowser......passed
+When User Have To Pass The "smartskills123@gmail.com" and "smart@123".......passed
+And User Have Click The Login button........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To Validate the Login Functionaly of Facebook Application" name="To Validate The Logic Functionality of valid userName and InValid Passsword" time="2.915074">
+        <failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.sep.Stepdefinition.user_Have_to_pass_the_Valid_UserName_and_InValid_password(Stepdefinition.java:95)&#13;&#10;&#9;at ✽.User Have to pass the Valid UserName and InValid password(file:login.feature:8)&#13;&#10;">
+            <![CDATA[Given User Have to Open The FaceBook Application Through ChromeBrowser......passed
+When User Have to pass the Valid UserName and InValid password..............failed
+And User Have To Click the Login button.....................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.sep.Stepdefinition.user_Have_to_pass_the_Valid_UserName_and_InValid_password(Stepdefinition.java:95)
+	at ✽.User Have to pass the Valid UserName and InValid password(file:login.feature:8)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="To Validate the Login Functionaly of Facebook Application" name="To Validate The Logic Functionality of Invalid userName and InValid Passsword" time="2.990544">
+        <system-out>
+            <![CDATA[Given User Have to Open The FaceBook Application Through ChromeBrowser......passed
+When User Have to pass the InValid UserName and InValid password............passed
+And User Have To Click the Login button.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To Validate the Login Functionaly of Facebook Application" name="To Validate The Logic Functionality of Invalid userName and Valid Passsword" time="3.153662">
+        <system-out>
+            <![CDATA[Given User Have to Open The FaceBook Application Through ChromeBrowser......passed
+When User Have to pass the InValid UserName and Valid password..............passed
+And User Have To Click the Login button.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To Validate the Login Functionaly of Facebook Application" name="To Validate The Logic Functionality of valid userName and Valid Passsword" time="2.966854">
+        <failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.sep.Stepdefinition.user_Have_to_pass_the_Valid_UserName_and_Valid_password(Stepdefinition.java:132)&#13;&#10;&#9;at ✽.User Have to pass the Valid UserName and Valid password(file:login.feature:32)&#13;&#10;">
+            <![CDATA[Given User Have to Open The FaceBook Application Through ChromeBrowser......passed
+When User Have to pass the Valid UserName and Valid password................failed
+And User Have To Click the Login button.....................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.sep.Stepdefinition.user_Have_to_pass_the_Valid_UserName_and_Valid_password(Stepdefinition.java:132)
+	at ✽.User Have to pass the Valid UserName and Valid password(file:login.feature:32)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
